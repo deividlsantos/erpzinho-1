@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22a7c3e2-7a3c-4524-ac2b-4d477b9601c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/provider/admin.py" afterDir="false" />
-    </list>
+    <list default="true" id="22a7c3e2-7a3c-4524-ac2b-4d477b9601c5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,28 +20,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="20" />
-          <entry key="py" value="85" />
+          <entry key="html" value="23" />
+          <entry key="py" value="86" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="20" />
+          <entry key="HTML" value="23" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="85" />
+          <entry key="Python" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="750" />
-          <entry key="py" value="4282" />
+          <entry key="py" value="4316" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="750" />
-          <entry key="Python" value="4282" />
+          <entry key="Python" value="4316" />
         </counts>
       </usages-collector>
     </session>
@@ -82,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -99,12 +94,21 @@
         <entry file="file://$PROJECT_DIR$/provider/admin.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-                <marker date="1533240983681" expanded="true" signature="140:163" ph="..." />
-                <marker date="1533240983681" expanded="true" signature="201:248" ph="..." />
+                <marker date="1533241433145" expanded="true" signature="140:177" ph="..." />
+                <marker date="1533241433145" expanded="true" signature="215:262" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/admin/options.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="2039" column="31" selection-start-line="2039" selection-start-column="31" selection-end-line="2039" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -178,6 +182,96 @@
             <path>
               <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
               <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
+              <item name=".venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
+              <item name=".venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
+              <item name=".venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
+              <item name=".venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
+              <item name=".venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
+              <item name=".venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
+              <item name=".venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
+              <item name=".venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
+              <item name=".venv" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.6" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="edit_inline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="erpzinho" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erpzinho" type="462c0819:PsiDirectoryNode" />
               <item name="provider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -227,7 +321,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26410657" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26410657" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3284553" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.22764228" />
@@ -467,18 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1533240983681" expanded="true" signature="140:163" ph="..." />
-            <marker date="1533240983681" expanded="true" signature="201:248" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/products/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -487,6 +569,36 @@
             <marker date="1533240937430" expanded="true" signature="78:80" ph="..." />
             <marker date="1533240937430" expanded="true" signature="117:603" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1533241433145" expanded="true" signature="140:177" ph="..." />
+            <marker date="1533241433145" expanded="true" signature="215:262" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/forms/jinja2/django/forms/widgets/email.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/edit_inline/tabular.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/admin/templates/admin/edit_inline/stacked.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.venv/lib/python3.6/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="2039" column="31" selection-start-line="2039" selection-start-column="31" selection-end-line="2039" selection-end-column="31" />
         </state>
       </provider>
     </entry>
