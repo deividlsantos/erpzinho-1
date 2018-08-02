@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22a7c3e2-7a3c-4524-ac2b-4d477b9601c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/provider/admin.py" afterDir="false" />
@@ -39,13 +40,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="750" />
-          <entry key="py" value="4239" />
+          <entry key="py" value="4282" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="750" />
-          <entry key="Python" value="4239" />
+          <entry key="Python" value="4282" />
         </counts>
       </usages-collector>
     </session>
@@ -81,13 +82,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/products/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state>
+              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
                 <marker date="1533240937430" expanded="true" signature="78:80" ph="..." />
                 <marker date="1533240937430" expanded="true" signature="117:603" ph="..." />
               </folding>
@@ -95,15 +95,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="112">
+              <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
-                <marker date="1533240937482" expanded="true" signature="90:113" ph="..." />
-                <marker date="1533240937482" expanded="true" signature="151:198" ph="..." />
+                <marker date="1533240983681" expanded="true" signature="140:163" ph="..." />
+                <marker date="1533240983681" expanded="true" signature="201:248" ph="..." />
               </folding>
             </state>
           </provider>
@@ -227,27 +227,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26410657" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Thumbnails" weight="0.3284553" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.22764228" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="2" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1661442" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26410657" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3284553" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.22764228" />
@@ -255,7 +235,7 @@
       <window_info anchor="bottom" id="Python Console" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -264,7 +244,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -487,26 +467,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/admin.py">
+    <entry file="file://$PROJECT_DIR$/provider/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="112">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-            <marker date="1533240937430" expanded="true" signature="78:80" ph="..." />
-            <marker date="1533240937430" expanded="true" signature="117:603" ph="..." />
+            <marker date="1533240983681" expanded="true" signature="140:163" ph="..." />
+            <marker date="1533240983681" expanded="true" signature="201:248" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider/admin.py">
+    <entry file="file://$PROJECT_DIR$/products/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
-            <marker date="1533240937482" expanded="true" signature="90:113" ph="..." />
-            <marker date="1533240937482" expanded="true" signature="151:198" ph="..." />
+            <marker date="1533240937430" expanded="true" signature="78:80" ph="..." />
+            <marker date="1533240937430" expanded="true" signature="117:603" ph="..." />
           </folding>
         </state>
       </provider>

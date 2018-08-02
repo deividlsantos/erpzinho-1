@@ -2,9 +2,10 @@ from django.contrib import admin
 from .models import Provider
 from products.models import Product
 
-class ProductInLine(admin.TabularInline):
+class ProductInLine(admin.StackedInline):
 
     model = Product
+    extra = 1
 
 class ProviderAdmin(admin.ModelAdmin):
     inlines = [
