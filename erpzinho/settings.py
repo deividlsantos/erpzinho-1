@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'products.apps.ProductsConfig',
-    'provider.apps.ProviderConfig'
+    'provider.apps.ProviderConfig',
+    'ckeditor'
 ]
 
 MIDDLEWARE = [
@@ -119,4 +120,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
+PROJECT_DIR = os.path.dirname(__file__)
+
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(os.path.dirname(PROJECT_DIR), 'static/')
+
+CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"

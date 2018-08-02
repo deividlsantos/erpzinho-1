@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .models import Product, CategoryProduct
+from .forms import ProductForm
 
 
 class ProductAdmin(admin.ModelAdmin):
@@ -7,6 +8,7 @@ class ProductAdmin(admin.ModelAdmin):
     list_filter = ('category',)
     ordering = ['name']
     actions = ['duplicate']
+    form = ProductForm
 
 
     def duplicate(self, request, queryset):
