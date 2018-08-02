@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{# jinja2 #}
+
+{% block content %}
+    {% for product in products %}
+        {{ product.name }}
+        {{ product.value }}
+        {{ product.description }}
+    {% endfor %}
+{% endblock %}
+
+
+

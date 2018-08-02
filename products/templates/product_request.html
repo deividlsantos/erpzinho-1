@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <form action="/request/products/" method="post">
+        {% csrf_token %}
+        {{ forms.as_p }}
+        <input type="submit" value="Enviar">
+    </form>
+{% endblock %}
