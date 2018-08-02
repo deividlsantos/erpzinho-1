@@ -1,5 +1,15 @@
 from django.contrib import admin
 from .models import Provider
-# Register your models here.
+from products.models import Product
 
-admin.site.register(Provider)
+class ProductInLine(admin.TabularInline):
+
+    model = Product
+
+class ProviderAdmin(admin.ModelAdmin):
+    inlines = [
+        ProductInLine
+    ]
+
+
+admin.site.register(Provider,ProviderAdmin)
