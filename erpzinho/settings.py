@@ -128,3 +128,9 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(os.path.dirname(PROJECT_DIR), 'static/')
 
 CKEDITOR_BASEPATH = "/static/ckeditor/ckeditor/"
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
