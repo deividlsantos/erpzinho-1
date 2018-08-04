@@ -11,7 +11,7 @@ from .forms import ProductForm
 class ProductListView(ListView):
 
     model = Product
-    queryset = Product.objects.all()
+    queryset = Product.objects.filter(pk__gte=1)
     template_name = "product_list.html"
     context_object_name = 'products'
     paginate_by = 3
