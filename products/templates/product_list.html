@@ -3,10 +3,10 @@
 {# jinja2 #}
 
 {% block content %}
-    {% for product in products %}
+    {% for product in object_list %}
         {{ product.name }}
         {{ product.value }}
-        {{ product.description }}
+        {{ product.description }} <br>
     {% endfor %}
 {% endblock %}
 
