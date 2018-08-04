@@ -1,6 +1,7 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.views.generic.base import TemplateView
+from django.views.generic.detail import DetailView
 from .models import Product
 from .forms import ProductForm
 
@@ -27,8 +28,11 @@ class AboutView(TemplateView):
 
     template_name = "about.html"
 
-    def get_context_data(self, **kwargs):
-        context = super
 
-def about(request):
-    return render(request, "about.html")
+class ProductDetailView(DetailView):
+
+    slug_field = 'id'
+    model = Product
+    context_object_name = 'product'
+    template_name = 'product_detail.html'
+
