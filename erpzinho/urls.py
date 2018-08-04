@@ -17,7 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 from products.views import product_request, AboutView
 from products.views import api_product_list
-from provider.views import api_providers
+from provider.views import ProviderListApiView
+from provider.views import ProviderDetailApiView
 from products.views import ProductDetailView, ProductListView
 from rest_framework import routers
 
@@ -27,7 +28,8 @@ urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
     path('api/products/', api_product_list),
-    path('api/providers/', api_providers),
+    path('api/providers/', ProviderListApiView.as_view()),
+    path('api/providers/<int:pk>/', ProviderDetailApiView.as_view()),
     path('products/', ProductListView.as_view()),
     path('products/<int:pk>/', ProductDetailView.as_view()),
     path('about/', AboutView.as_view()),
