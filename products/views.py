@@ -6,6 +6,7 @@ from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 from .models import Product
 from .forms import ProductForm
+from rest_framework import permissions, authentication, viewsets
 from .serializers import ProductSerializer
 
 
@@ -49,3 +50,11 @@ def api_product_list(request):
     products = Product.objects.all()
     serializer = ProductSerializer(products, many=True)
     return JsonResponse(serializer.data, safe=False)
+
+
+class ProductViewSet(viewsets.ModelViewSet):
+
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+    authentication_classes = (authentication.TokenAuthentication, )
+

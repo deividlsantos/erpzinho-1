@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'products.apps.ProductsConfig',
     'provider.apps.ProviderConfig',
     'ckeditor',
-    'rest_framework'
+    'rest_framework',
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [

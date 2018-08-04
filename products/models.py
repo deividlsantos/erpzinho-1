@@ -21,7 +21,7 @@ class Product(models.Model):
     description = models.TextField("Descrição",blank=True)
     value = models.DecimalField("Valor",max_digits=10, decimal_places=2)
     products_type = models.CharField("Tipo do Produto",max_length=10, choices=TYPE_CHOICE, default='food')
-    category = models.ForeignKey(CategoryProduct, on_delete=False, null=True)
+    category = models.ForeignKey(CategoryProduct, on_delete=False, null=True, blank=True)
     provider = models.ForeignKey(Provider, on_delete=False, null=True, blank=True)
 
     class Meta:
